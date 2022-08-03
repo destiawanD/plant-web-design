@@ -137,10 +137,10 @@ const sr = ScrollReveal({
     // reset: true
 })
 
-sr.reveal(`.home__data`)
-sr.reveal(`.home__img`, {delay: 500})
-sr.reveal(`.home__social`, {delay: 600})
-sr.reveal(`.about__img, .contact__box`,{origin: 'left'})
-sr.reveal(`.about__data, .contact__form`,{origin: 'right'})
-sr.reveal(`.steps__card, .product__card, .questions__group, .footer`,{interval: 100})
+sr.reveal(`.home-data`)
+sr.reveal(`.home-img`, {delay: 500})
+sr.reveal(`.home-ocial`, {delay: 600})
+sr.reveal(`.about-img, .contact-box`,{origin: 'left'})
+sr.reveal(`.about-data, .contact-form`,{origin: 'right'})
+sr.reveal(`.steps-card, .product-card, .questions-group, .footer`,{interval: 100})
 
