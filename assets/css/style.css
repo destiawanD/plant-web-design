@@ -387,7 +387,7 @@ img {
     margin-top: .15rem;
 }
 
-/* =============== ABOUT =============== */
+/* =============== STEPS =============== */
 .steps-bg {
     background-color: var(--first-color);
     padding: 3rem 2rem 2rem;
@@ -432,3 +432,71 @@ img {
 .steps-card:hover .steps-card-number {
     transform: translateY(-.25rem);
 }
+
+/* =============== PRODUCTS =============== */
+.product-description {
+    text-align: center;
+}
+
+.product-container {
+    padding: 3rem 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem 3rem;
+}
+
+.product-card {
+
+    display: grid;
+    position: relative;
+}
+
+.product-img{
+    position: relative;
+    width: 120px;
+    justify-self: center;
+    margin-bottom: var(--mb-0-75);
+    transition: .3s;
+}
+
+.product-title,
+.product-price {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.product-title {
+    margin-bottom: .25rem;
+}
+
+.product-button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: var(--first-color);
+    color: #FFF;
+    padding: .25rem;
+    border-radius: .35rem;
+    font-size: 1.15rem;
+}
+
+.product-button:hover {
+    background-color: var(--first-color-alt);
+}
+
+.product-circle {
+    width: 90px;
+    height: 90px;
+    background-color: var(--first-color-lighten);
+    border-radius: 50%;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+}
+
+.product-card:hover .product-img {
+    transform: translateY(-.5rem);
+}
+
+
+
